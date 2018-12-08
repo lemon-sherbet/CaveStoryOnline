@@ -413,7 +413,7 @@ int main(int argc, char *argv[])
 	}
 
 	Graphics::ShowLoadingScreen();
-	if (sound_init()) { fatal("Failed to initialize sound."); return 1; }
+	//if (sound_init()) { fatal("Failed to initialize sound."); return 1; }
 	if (trig_init()) { fatal("Failed trig module init."); return 1; }
 
 	if (tsc_init()) { fatal("Failed to initialize script engine."); return 1; }

@@ -374,7 +374,7 @@ bool load_stages(void)
 {
 FILE *fp;
 
-	fp = fopen("./data/stage.dat", "rb");
+	fp = fopen("data/stage.dat", "rb");
 	if (!fp)
 	{
 		staterr("%s(%d): failed to open data/stage.dat", __FILE__, __LINE__);

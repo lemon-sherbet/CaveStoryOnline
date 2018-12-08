@@ -1,6 +1,11 @@
 build/
 tools/
+bin
 bin/
 **/.DS_Store
 .DS_Store
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+Makefile
 data/
